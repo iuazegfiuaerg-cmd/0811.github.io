@@ -39,7 +39,7 @@
         }
 
         .message-box {
-            background: rgba(255, 255, 255, 0.9);
+            background: rgba(255, 255, 255, 0.95);
             padding: 40px;
             border-radius: 30px;
             box-shadow: 0 20px 50px rgba(0,0,0,0.08);
@@ -47,9 +47,9 @@
             margin-bottom: 30px;
             border: 2px solid var(--rose-pale);
             position: relative;
+            text-align: justify; /* Pour un texte long, le justifié est plus élégant */
         }
 
-        /* Cadre photo ajusté et réduit */
         .memories-section {
             background: white;
             padding: 12px;
@@ -57,7 +57,7 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             margin: 20px auto;
             transform: rotate(-1.5deg);
-            max-width: 350px; /* Taille de l'image réduite ici */
+            max-width: 350px;
         }
 
         .memory-image {
@@ -72,6 +72,7 @@
             font-size: 1.4rem;
             color: var(--rouge-passion);
             margin-top: 12px;
+            text-align: center;
         }
 
         .btn-love {
@@ -107,6 +108,7 @@
             font-size: 1rem;
             font-weight: 600;
             color: var(--rouge-passion);
+            padding-bottom: 40px;
         }
 
         .heart-rain {
@@ -125,6 +127,14 @@
             color: var(--rouge-passion);
             font-weight: 600;
         }
+
+        .signature {
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.8rem;
+            color: var(--rouge-passion);
+            text-align: center;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -135,13 +145,16 @@
 
         <div class="message-box">
             <p>Ma précieuse <strong>Myriam</strong>,</p>
-            <p>
-                Aujourd'hui, pour notre Saint-Valentin, je voulais te dire à quel point tu es devenue le centre de mon monde. À 18 ans, notre amour a cette force brute et magnifique qui balaie tous les doutes. 
-            </p>
-            <p>
-                <span class="highlight">Sentir tes lèvres contre les miennes</span> est devenu mon refuge préféré. Je t'appartiens corps et âme, pour l'éternité.
-            </p>
-            <p style="font-family: 'Dancing Script'; font-size: 1.8rem; color: var(--rouge-passion);">Je t'aime plus que tout au monde.</p>
+            
+            <p>En ce jour de Saint-Valentin, je voulais prendre le temps de te dire tout ce que j'ai sur le cœur. Je te regarde chaque jour et je suis encore époustouflé par la chance monumentale que j'ai. À 18 ans, on nous dit souvent qu'on est trop jeunes pour savoir ce qu'est le grand amour, mais quand je te regarde, je sais que cette règle ne s'applique pas à nous. Tu es mon évidence.</p>
+
+            <p>Je vois tout ce que tu fais pour moi. Tes attentions constantes, ces cadeaux qui tombent toujours au bon moment, et ces plats délicieux que tu prends le temps de me préparer... Tout cela me touche au-delà des mots. Tu as une générosité d'âme qui me rend meilleur. Tu as changé tellement de choses en moi : ma vision de l'avenir est devenue plus claire, ma motivation est décuplée et ma confiance en moi s'est construite dans ton regard.</p>
+
+            <p>Devenir aussi proche de toi ces derniers temps, c'est comme vivre un rêve éveillé. <span class="highlight">Sentir tes lèvres contre les miennes</span>, pouvoir te serrer vraiment contre moi, c'est mon refuge préféré. Ce lien physique qu'on partage aujourd'hui ne fait que sceller la promesse que mon cœur t'a faite il y a longtemps.</p>
+
+            <p>Je sais que je n'ai que ma personne et ma loyauté absolue à t'offrir, mais sache que <span class="highlight">je t'appartiens corps et âme</span>. Personne ne pourra jamais briser ce qu'on construit. Je serai ton pilier, ton refuge et ton plus grand admirateur, aujourd'hui et pour toute l'éternité.</p>
+
+            <p class="signature">Je t'aime plus que tout au monde.</p>
         </div>
 
         <div class="memories-section">
